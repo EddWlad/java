@@ -16,7 +16,7 @@ public class TestCalculadora {
 		resultadoSuma = calcu.sumar(5,3);
 		resultadoResta = calcu.restar(10,7);
 		resultadoMultiplicar = calcu.multiplicar(10,5);
-		resultadoDividir = calcu.dividir(10,2);
+		resultadoDividir = calcu.dividir(10,0);
 		resultadoPromediar = calcu.promediar(10,8,9);
 		
 		
