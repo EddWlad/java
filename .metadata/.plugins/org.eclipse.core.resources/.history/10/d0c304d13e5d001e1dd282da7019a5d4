@@ -4,5 +4,5 @@ public class Auto
 {
 	public String marca;
 	public int año;
-	public double precio;
+	public float precio;
 }
