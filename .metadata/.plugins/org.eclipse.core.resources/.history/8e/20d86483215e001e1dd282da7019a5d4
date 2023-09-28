@@ -2,15 +2,6 @@ package com.krakedev;
 
 public class Calculadora 
 {
-	private int valor1;
-	private int valor2;
-	
-	public Calculadora(int valor1,int valor2)
-	{
-		this.valor1 = valor1;
-		this.valor2 = valor2;
-	}
-	
 	public int sumar(int valor1,int valor2)
 	{
 		int resultado;

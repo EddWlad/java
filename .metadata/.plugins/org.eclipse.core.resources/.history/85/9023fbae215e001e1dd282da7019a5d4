@@ -11,7 +11,7 @@ public class TestCalculadora {
 		double resultadoPromediar;
 		
 		Calculadora calcu;
-		calcu = new Calculadora(5,3);
+		calcu = new Calculadora();
 		
 		resultadoSuma = calcu.sumar(5,3);
 		resultadoResta = calcu.restar(10,7);

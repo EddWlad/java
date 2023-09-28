@@ -6,13 +6,7 @@ public class Persona
 	private int edad;
 	private double estatura;
 	
-	//constructores
-	
-	public Persona()
-	{
-		System.out.println("ingrese al constructor");
-	}
-	
+	//constructor
 	public Persona(String nombre)
 	{
 		this.nombre = nombre;

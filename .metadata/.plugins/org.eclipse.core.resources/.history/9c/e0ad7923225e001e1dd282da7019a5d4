@@ -6,8 +6,8 @@ public class TestAuto
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		Auto auto1 = new Auto("VolksWagen",2005,6350);
-		Auto auto2 = new Auto("KIA",2022,14000);
+		Auto auto1 = new Auto();
+		Auto auto2 = new Auto();
 		
 		auto1.setMarca("VolksWagen");
 		auto1.setAño(2005);
