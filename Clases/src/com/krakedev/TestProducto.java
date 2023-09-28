@@ -13,38 +13,38 @@ public class TestProducto
 		productoB = new Producto();
 		productoC = new Producto();
 		
-		productoA.nombre = "Escapel";
-		productoA.descripcion = "Pastilla de emergencia del dia despues";
-		productoA.precio = 5.5;
-		productoA.stockActual = 4;
+		productoA.setNombre("Escapel");
+		productoA.setDescripcion("Pastilla de emergencia del dia despues");
+		productoA.setPrecio(5.5);
+		productoA.setStockActual(4);
 		
-		productoB.nombre = "Migradorixina";
-		productoB.descripcion = "Pastilla para dolor de cabeza";
-		productoB.precio = 0.65;
-		productoB.stockActual = 20;
+		productoB.setNombre("Migradorixina");
+		productoB.setDescripcion("Pastilla para dolor de cabeza");
+		productoB.setPrecio(0.65);
+		productoB.setStockActual(20);
 		
-		productoC.nombre = "Aspirina efervecente";
-		productoC.descripcion = "Polvo de uso oral para dolor de cabeza";
-		productoC.precio = 0.35;
-		productoC.stockActual = 7;
+		productoC.setNombre("Aspirina efervecente");
+		productoC.setDescripcion("Polvo de uso oral para dolor de cabeza");
+		productoC.setPrecio(0.35);
+		productoC.setStockActual(7);
 		
 		System.out.println("-----PRODUCTO 1-----");
-		System.out.println("Nombre: "+productoA.nombre);
-		System.out.println("Descripcion: "+productoA.descripcion);
-		System.out.println("Precio: $"+productoA.precio);
-		System.out.println("Stock: "+productoA.stockActual+" UND");
+		System.out.println("Nombre: "+productoA.getNombre());
+		System.out.println("Descripcion: "+productoA.getDescripcion());
+		System.out.println("Precio: $"+productoA.getPrecio());
+		System.out.println("Stock: "+productoA.getStockActual()+" UND");
 		
 		System.out.println("-----PRODUCTO 2-----");
-		System.out.println("Nombre: "+productoB.nombre);
-		System.out.println("Descripcion: "+productoB.descripcion);
-		System.out.println("Precio: $"+productoB.precio);
-		System.out.println("Stock: "+productoB.stockActual+" UND");
+		System.out.println("Nombre: "+productoB.getNombre());
+		System.out.println("Descripcion: "+productoB.getDescripcion());
+		System.out.println("Precio: $"+productoB.getPrecio());
+		System.out.println("Stock: "+productoB.getStockActual()+" UND");
 		
 		System.out.println("-----PRODUCTO 3-----");
-		System.out.println("Nombre: "+productoC.nombre);
-		System.out.println("Descripcion: "+productoC.descripcion);
-		System.out.println("Precio: $"+productoC.precio);
-		System.out.println("Stock: "+productoC.stockActual+" UND");
+		System.out.println("Nombre: "+productoC.getNombre());
+		System.out.println("Descripcion: "+productoC.getDescripcion());
+		System.out.println("Precio: $"+productoC.getPrecio());
+		System.out.println("Stock: "+productoC.getStockActual()+" UND");
 		
 	}
 

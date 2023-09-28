@@ -10,9 +10,9 @@ public class TestCuadrado
 		Cuadrado c2 = new Cuadrado();
 		Cuadrado c3 = new Cuadrado();
 		
-		c1.lado = 6;
-		c2.lado = 9;
-		c3.lado = 12;
+		c1.setLado(6);
+		c2.setLado(9);
+		c3.setLado(12);
 		
 		double areaC1;
 		double areaC2;
