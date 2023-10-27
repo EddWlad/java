@@ -6,8 +6,8 @@ public class TestHerencia {
 	{
 		Perro p = new Perro();
 		p.dormir();
-		Animal a = new Animal();
-		System.out.println(a.hashCode());
+		/*Animal a = new Animal();
+		System.out.println(a.hashCode());*/
 	}
 
 }
