@@ -2,4 +2,18 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.krakedev.Fecha"/>
     <fullyQualifiedTypeName name="com.krakedev.Cuadrado"/>
+    <fullyQualifiedTypeName name="com.krakedev.entidades.Naipe"/>
+    <fullyQualifiedTypeName name="com.krakedev.entidades.Carta"/>
+    <fullyQualifiedTypeName name="com.krakedev.sobrecarga.Bienvenida"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Persona"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Gato"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.entidades.Alarma"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.logica.AdminAlarmas"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.Util"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
 </qualifiedTypeNameHistroy>
